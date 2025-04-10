@@ -1,0 +1,60 @@
+.runTestBtn {
+    padding: 10px 17px;
+    margin: 0px 13px;
+    background-color: #a03cbb;
+    border-radius: 5px;
+    border: 0px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.dashboardContainer{
+    margin-left: 20px;
+}
+.testCaseName{
+    color:#896d6d;
+}
+.moduleHead{
+    color: #352f2f;
+}
+.testCaseTable{
+    height: 48vh;
+    overflow-y: scroll;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    box-shadow: 0px 0px 6px -3px #000000;
+    border-radius: 10px;
+}
+.testCaseCard{
+    background-color: #c0d6df;
+    padding: 16px;
+    margin: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+.filterContainer{
+    margin-bottom: 20px;
+}
+/* ----------------------------------------- */
+
+
+.filterBar {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  
+  .statusDropdown {
+    padding: 6px;
+    margin-left: 10px;
+  }
+  
+  .resetBtn {
+    padding: 6px 10px;
+    margin-left: 10px;
+  }
+  

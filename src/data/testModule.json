@@ -1,0 +1,43 @@
+[
+    {
+      "module": "AP",
+      "testCases": [{
+        "name": "Invoice Creation",
+        "description": "Create an invoice in the system",
+        "status": ""
+      }, {
+        "name": "Invoice Approval",
+        "description": "Approve an invoice in the system",
+        "status": ""
+      }, {
+        "name": "Payment",
+        "description": "Process a payment in the system",
+        "status": ""
+      }]
+      },
+    {
+      "module": "PO",
+      "testCases": [{
+        "name": "PO Creation",
+        "description": "Create a purchase order in the system",
+        "status": ""
+      }, {
+        "name": "PO Approval",
+        "description": "Approve a purchase order in the system",
+        "status": ""
+      }]
+    },
+    {
+      "module": "AR",
+      "testCases": [{
+        "name": "Customer Invoice Creation",
+        "description": "Create a customer invoice in the system",
+        "status": ""
+      }, {
+        "name": "Customer Payment",
+        "description": "Process a customer payment in the system",
+        "status": ""
+      }]
+    }
+  ]
+  

@@ -1,0 +1,47 @@
+.loginPage{
+    max-width: 400px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+.inputGroup label{
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    color: #636262;
+}
+.inputGroup input{
+    padding: 0.5rem;
+    border: 0.1rem;
+    border-radius: 0.3rem;
+    width: 250px;
+    color: #3f3d3d;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+.inputGroup input:focus{
+    outline: 1px solid #6febbc;
+}
+.loginBtn{
+    display: flex;
+    /* justify-content: center; */
+    height: 100px;
+    align-items: center;
+}
+.loginBtn button{
+    background-color: #3be69f;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius:6px ;
+    cursor: pointer;
+}
