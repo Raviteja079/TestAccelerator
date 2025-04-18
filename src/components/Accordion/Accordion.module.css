@@ -1,0 +1,11 @@
+.accordionTitle{
+    margin: 0;
+    padding: 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #5986bb;
+}
+
+.accordionTitle:hover {
+    background-color: #4a6f9b;
+}

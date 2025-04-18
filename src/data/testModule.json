@@ -2,14 +2,17 @@
     {
       "module": "AP",
       "testCases": [{
+        "id": "1",
         "name": "Invoice Creation",
         "description": "Create an invoice in the system",
         "status": ""
       }, {
+        "id": "2",
         "name": "Invoice Approval",
         "description": "Approve an invoice in the system",
         "status": ""
       }, {
+        "id": "3",
         "name": "Payment",
         "description": "Process a payment in the system",
         "status": ""
@@ -18,10 +21,12 @@
     {
       "module": "PO",
       "testCases": [{
+        "id": "1",
         "name": "PO Creation",
         "description": "Create a purchase order in the system",
         "status": ""
       }, {
+        "id": "2",
         "name": "PO Approval",
         "description": "Approve a purchase order in the system",
         "status": ""
@@ -30,10 +35,12 @@
     {
       "module": "AR",
       "testCases": [{
+        "id": "1",
         "name": "Customer Invoice Creation",
         "description": "Create a customer invoice in the system",
         "status": ""
       }, {
+        "id": "2",
         "name": "Customer Payment",
         "description": "Process a customer payment in the system",
         "status": ""

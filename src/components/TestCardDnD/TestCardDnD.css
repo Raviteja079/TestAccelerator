@@ -1,0 +1,21 @@
+/* src/components/TestCardDnD/TestCardDnD.css */
+.test-card-dnd {
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.test-list {
+    background-color: #f4f4f4;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.test-card {
+    background: white;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+}

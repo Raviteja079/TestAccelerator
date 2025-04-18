@@ -2,12 +2,18 @@ import React, { useEffect } from "react";
 import styles from "./dashboard.module.css";
 import modulesData from "../data/testModule.json";
 
-const ModuleCard = ({ setSelectedModule, selectedModule, testModules, setTestModules }) => {
-    // const [modules, setModules] = React.useState(modulesData);
-    
+const ModuleCard = ({
+  setSelectedModule,
+  selectedModule,
+  testModules,
+  setTestModules,
+}) => {
+  // const [modules, setModules] = React.useState(modulesData);
+
   return (
-    <div>
+    <div style={{ paddingRight: "20px"}}>
       <h2>Modules</h2>
+
       <ul>
         {testModules.map((module, index) => {
           const passedTestCases = module?.testCases?.filter((testCase) => {
