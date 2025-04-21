@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import styles from "./dashboard.module.css";
-import ModuleCard from "./ModuleCard";
-import TestCaseTable from "./TestCaseTable";
-import modulesData from "../data/testModule.json";
+import ModuleCard from "../ModuleCard/ModuleCard";
+import TestCaseTable from "../TestCaseTable/TestCaseTable";
+import modulesData from "../../data/testModule.json";
 import { toast } from "react-toastify";
-import ModulePieChart from "./ModulePieChart";
-import ModuleBarChart from "./ModuleBarChart";
-import ModuleLineChart from "./ModuleLineChart";
-import ModuleStackedBarChart from "./ModuleStackedBarChart";
-import { convertToCSV } from "../utils/exportToCsv";
+import ModulePieChart from "../Charts/ModulePieChart";
+import ModuleBarChart from "../Charts/ModuleBarChart";
+import ModuleLineChart from "../Charts/ModuleLineChart";
+import ModuleStackedBarChart from "../Charts/ModuleStackedBarChart";
+import { convertToCSV } from "../../utils/exportToCsv";
 
 const Dashboard = () => {
   const [selectedModule, setSelectedModule] = useState(null);

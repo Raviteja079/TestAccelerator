@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./dashboard.module.css";
+import styles from "./TestCaseTable.module.css";
 import { toast } from "react-toastify";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 
@@ -132,7 +132,6 @@ const TestCaseTable = ({ selectedModule, testModules, setTestModules }) => {
                 isDropDisabled={isFilterActive}
                 isCombineEnabled={false}
                 ignoreContainerClipping={false}
-                // className={styles.droppableArea}
                 direction="vertical"
               >
                 {(provided) => (
@@ -210,11 +209,6 @@ const TestCaseTable = ({ selectedModule, testModules, setTestModules }) => {
                                 style={{
                                   marginLeft: "10px",
                                   color,
-                                  // testStatus[testCase.name] === "Passed"
-                                  //   ? "green"
-                                  //   : testStatus[testCase.name] === "Failed"
-                                  //   ? "red"
-                                  //   : "black",
                                   fontWeight: "bold",
                                 }}
                               >

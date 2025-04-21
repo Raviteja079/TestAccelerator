@@ -2,10 +2,14 @@ import React from "react";
 import accordionData from "../../data/accordionData";
 import { useState } from "react";
 import styles from "./Accordion.module.css";
+import { useAuth } from "../../context/AuthContext";
+import { useNavigate } from "react-router-dom";
 
 const AccordionForm = () => {
   const [formData, setFormData] = useState({});
   const [openAccordions, setOpenAccordions] = useState({});
+  const {logout} = useAuth()
+  const navigate = useNavigate();
 
   let icon = "";
   const handleChange = (key, value) => {
@@ -21,6 +25,12 @@ const AccordionForm = () => {
     e.preventDefault();
     console.log("Form Data Submitted:", formData);
   };
+
+  const handleLogout = () => {
+    logout()
+    navigate('/login')
+  }
+
   return (
     <form onSubmit={handleSubmit}>
       {accordionData.accordions.map((accordion) => {
@@ -110,6 +120,16 @@ const AccordionForm = () => {
       >
         Submit
       </button>
+      <button onClick={handleLogout} style={{
+          padding: "10px 16px",
+          fontWeight: "bold",
+          margin: "20px 0px 20px 20px",
+          backgroundColor: "#266baf",
+          color: "white",
+          borderRadius: "5px",
+          border: "none",
+          cursor: "pointer"
+        }}>Logout</button>
     </form>
   );
 };

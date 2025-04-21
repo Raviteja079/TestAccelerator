@@ -1,0 +1,47 @@
+
+.dashboardContainer {
+  margin-left: 20px;
+}
+
+.moduleHead {
+  color: #352f2f;
+}
+
+.filterBar {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.allTestCasesBtn {
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #ed5443;
+}
+
+.loginBtn{
+  background-color: #3be69f;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border: none;
+  border-radius:6px ;
+  cursor: pointer;
+}
+.loginBtn:hover{
+  background-color: #2f9b7e;
+}
+
+.chartsGrid {
+  display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+  .chartsGrid {
+    flex-direction: column;
+  }
+}

@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router } from "react-router-dom";
-import AuthRoutes from "./routes/AuthRoutes";
+import MainRoutes from "./routes/MainRoutes";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import TestCardDnD from "./components/TestCardDnD/TestCardDnD";
@@ -11,7 +11,7 @@ function App() {
   return (
     <AuthProvider>
     <Router>
-      <AuthRoutes />
+      <MainRoutes />
       <ToastContainer position="top-right" autoClose={3000} />
     </Router>
     </AuthProvider>
